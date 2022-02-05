@@ -7,7 +7,6 @@ before_install:
 
 script: 
   - docker run smrkamran/docker-react-2 npm run test -- --watchAll=false
-
 deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
